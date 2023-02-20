@@ -5,11 +5,6 @@ const {createStore, legacy_createStore} = require('redux')
 // state 
 const initialCounterState = {
     count: 0,
-    user: 'hai'
-}
-
-const initialUsersState = {
-    users: [{name: 'naeem'}]
 }
 
 // action - object - type, paylod
@@ -21,12 +16,6 @@ const incrementAction = () => {
 const decrementAction = () =>{
     return {
         type: 'DECRENENT'
-    }
-}
-const addAction = () => {
-    return {
-        type: 'ADDUSER',
-        payload: { name: 'rayhan' }
     }
 }
 
