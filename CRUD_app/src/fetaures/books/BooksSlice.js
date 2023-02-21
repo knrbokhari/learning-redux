@@ -1,10 +1,10 @@
-const { createSlice } = require("@reduxjs/toolkit");
-const { v4: uuidv4 } = require("uuid");
+import { createSlice } from '@reduxjs/toolkit'
+// import { uuidv4 } from "uuid";
 
 const initialBooks = {
   books: [
-    { id: uuidv4(), title: "Bangladesh 71", author: "naeem" },
-    { id: uuidv4(), title: "Bangladeshi", author: "rayhan" },
+    { id: 1, title: "Bangladesh 71", author: "naeem" },
+    { id: 2, title: "Bangladeshi", author: "rayhan" },
   ],
 };
 
